@@ -1,0 +1,15 @@
+.message-view {
+    width: calc(100% - var(--aside-section-width));
+    min-height: 100%;
+    background-color: black;
+
+}
+
+.message-view {
+    display: inline-block;
+}
+.body-container{
+    display: flex;
+    min-height: 100vh;
+}
+   

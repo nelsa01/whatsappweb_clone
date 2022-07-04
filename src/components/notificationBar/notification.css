@@ -1,0 +1,5 @@
+.noti{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+}
