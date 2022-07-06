@@ -1,15 +1,15 @@
-.message-view {
-    width: calc(100% - var(--aside-section-width));
-    min-height: 100%;
-    background-color: black;
-
+.app{
+  display: grid;
+  place-items: center;
+  background-color: black;
+  height: 100vh;
 }
 
-.message-view {
-    display: inline-block;
+.app_body{
+  display: flex;
+  background-color: darkslategrey;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.2);
 }
-.body-container{
-    display: flex;
-    min-height: 100vh;
-}
-   
